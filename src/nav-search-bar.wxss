@@ -1,0 +1,29 @@
+.nav-bar .menu {
+  position: relative;
+  padding-top: 4rpx;
+  display: flex;
+}
+
+.menu .title {
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar .menu .logo {
+  width: 46rpx;
+  height: 46rpx;
+}
+
+.nav-bar .menu .text {
+  margin-left: 8rpx;
+  font-weight: 600;
+  letter-spacing: -0.8px;
+}
+
+.nav-bar .search {
+  width: 38rpx;
+  height: 38rpx;
+  position: absolute;
+  top: 15rpx;
+  right: 40rpx;
+}

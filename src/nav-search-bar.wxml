@@ -1,0 +1,17 @@
+<view class="nav-bar" style="height: {{navBarHeight}}px;">
+  <view class="menu"
+    style="line-height:{{menuHeight}}px;top:{{menuTop}}px;margin-right: {{ menuWidth+menuRight }}px;"
+  >
+    <view class="title" wx:if="{{ isShowTitle }}">
+      <image class="logo" wx:if="{{ isShowLogo }}" src="{{ customizedLogoImage }}" />
+      <text class="text">{{ customizedTitle }}</text>
+    </view>
+
+    <slot></slot>
+
+    <image class="search"
+      src="{{ customizedSearchImage }}" 
+      bindtap="onSearchTab"
+    />
+  </view>
+</view> 
