@@ -13,7 +13,9 @@
 ```
 
 `logoImg`: 导航栏最左边的logo图标，不传则不显示；
+
 `title`: logo 旁边的文字描述，不传则不显示；
+
 `bind:tap-search`: 点击搜索图标后会触发 `tap-search` 事件，可在它的事件响应中导航到新页面
 
 完。
